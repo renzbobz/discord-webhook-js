@@ -1,0 +1,33 @@
+{
+  "name": "discord-webhook",
+  "version": "1.0.0",
+  "description": "Easily send and manage discord webhook messages",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renzbobz/discord-webhook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renzbobz/discord-webhook/issues"
+  },
+  "homepage": "https://github.com/renzbobz/discord-webhook#readme",
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}

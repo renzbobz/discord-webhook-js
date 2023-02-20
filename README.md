@@ -7,7 +7,7 @@ Documentation, ESModules support, and Browser support soon.
 # Installation
 
 ```
-npm i discord-webhook-js
+npm i @renzbobz/discord-webhook
 ```
 
 # Usage
