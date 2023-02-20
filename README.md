@@ -13,7 +13,7 @@ npm i @renzbobz/discord-webhook
 # Usage
 
 ```js
-const { Webhook, Alert, File, Message, Embed } = require("discord-webhook-js");
+const { Webhook, Alert, File, Message, Embed } = require("@renzbobz/discord-webhook");
 ```
 
 ## Response Object
