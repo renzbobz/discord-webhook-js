@@ -1,5 +1,5 @@
 {
-  "name": "discord-webhook",
+  "name": "@renzbobz/discord-webhook",
   "version": "1.0.0",
   "description": "Easily send and manage discord webhook messages",
   "main": "dist/index.js",
@@ -28,6 +28,7 @@
     "node-fetch": "^3.3.0"
   },
   "devDependencies": {
+    "@types/node": "^18.14.0",
     "typescript": "^4.9.5"
   }
 }
