@@ -1,6 +1,6 @@
 {
   "name": "@renzbobz/discord-webhook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easily send and manage discord webhook messages",
   "main": "dist/index.js",
   "files": [
